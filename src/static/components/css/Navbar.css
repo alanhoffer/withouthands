@@ -1,0 +1,39 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 250px;
+    padding: 0 10%;
+
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--color-main);
+    letter-spacing: .1rem;
+    text-decoration: none;
+
+}
+.navbar-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.navbar-menu li{
+    margin: 0 50px;
+}
+
+.navbar-menu li{
+    margin: 0 50px;
+}
+
+.navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.navbar-menu li a:hover {
+    color: var(--color-main);
+}
