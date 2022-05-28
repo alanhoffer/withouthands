@@ -13,7 +13,7 @@ function Notice(){
                 Try now our work!
             </p>
             <div className="button">
-                <a href="#">Download</a>
+                <a href="#">Products</a>
             </div>
         </aside>
     )
