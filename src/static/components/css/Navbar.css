@@ -1,8 +1,9 @@
 .navbar{
+    z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 250px;
+    height: 25%;
     padding: 0 10%;
 
 }
@@ -23,10 +24,7 @@
 }
 
 .navbar-menu li{
-    margin: 0 50px;
-}
-
-.navbar-menu li{
+    font-size: 1rem;
     margin: 0 50px;
 }
 
@@ -34,6 +32,11 @@
     color: #fff;
     text-decoration: none;
 }
+
 .navbar-menu li a:hover {
     color: var(--color-main);
 }
+.navbar-menu li a.active {
+    color: var(--color-main);
+}
+

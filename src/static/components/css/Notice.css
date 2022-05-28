@@ -1,0 +1,29 @@
+.notice{
+    z-index: 1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width: 50%;
+    height: 50%;
+    margin: 0 10%;
+}
+
+.notice h1{
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: var(--color-main);
+}
+
+.notice p{
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.button a{
+    font-size: 0.75rem;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 3px;
+    background-color: var(--color-main);
+    text-decoration: none;
+}
